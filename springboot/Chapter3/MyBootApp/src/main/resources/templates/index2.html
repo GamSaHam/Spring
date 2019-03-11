@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top page</title>
+<style type="text/css">
+
+	h1{
+			font-size:18pt;
+			font-weight:bold;
+			color:gray;
+		}
+	
+	body{
+		font-size:13px; color:gray; margin:5px; 25px;
+	}
+		
+	pre{
+		font-size:13pt;
+		color:gray;
+		padding:5px 10px;
+		border:1px solid gray;
+		
+	}
+
+</style>
+
+</head>
+<body>
+
+	<h1>Hello page</h1>
+	<pre th:text = "${msg}">plase wait...</pre>
+
+	<form method = "post" action="/example2">
+		<div>
+			<input type="checkbox"  name="check1" />
+			<label for="check1">체크</label>	
+		
+		</div>
+	
+		<div>
+			<input type="radio" name="radio1" value="male" />
+			<label for="radioA">남성</label>
+		
+		</div>
+	
+		<div>
+			<input type="radio" name="radio1" value="female" />
+			<label for="radioB">여성</label>
+			
+		</div>
+		
+		<div>
+			<select  name="select1" size="4">
+				<option value="Windows">Windows</option>
+				<option value="Mac">Mac</option>
+				<option value="Linux">Linux</option>
+				
+			</select>
+		
+			<select  name="select2" size="4" multiple="multiple">
+				<option value="Android">Android</option>
+				<option value="iphone">iPhone</option>
+				<option value="Winfone">Windows Phone</option>
+				
+			</select>
+		</div>
+		
+		<input type="submit" value="Click" />	
+	
+	
+	</form>
+
+
+</body>
+</html>
