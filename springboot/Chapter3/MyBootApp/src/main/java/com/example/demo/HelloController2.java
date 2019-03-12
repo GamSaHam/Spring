@@ -21,14 +21,14 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController2 {
 
-	@RequestMapping(value="/example2", method=RequestMethod.GET)
+	@RequestMapping(value="/index2", method=RequestMethod.GET)
 	public ModelAndView index(ModelAndView mav) {
 		mav.setViewName("index2");
 		mav.addObject("msg", "폼을 전송해주세요.");
 		return mav;
 	}
 	
-	@RequestMapping(value="/example2", method=RequestMethod.POST)
+	@RequestMapping(value="/index2", method=RequestMethod.POST)
 	public ModelAndView send( @RequestParam(value="check1", required=false) boolean check1
 							 ,@RequestParam(value="radio1", required=false) String radio1
 							 ,@RequestParam(value="select1", required=false) String select1

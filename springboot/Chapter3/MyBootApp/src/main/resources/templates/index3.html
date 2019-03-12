@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top Page</title>
+</head>
+<body>
+
+	<h1>Hello Page</h1>
+		<!-- 스프링 타임리프를 사용할 경우 아래와 같이 사용할 수 있다. -->
+	<p th:text="${new java.util.Date().toString()}"></p>
+	
+	<!-- 유틸리티 객채 -->
+	<p th:text="${#dates.format(new java.util.Date(), 'dd/MMM/yyyy HH:mm')}"></p>
+	<p th:text="${#numbers.formatInteger(1234, 7)}"></p>
+	<p th:text="${#strings.toUpperCase('Welcome to Spring. ')}"></p>
+
+	<!-- 쿼리스트링이 배열인 이유 ?id=123&id=456 으로 동작하기 때문이다. -->
+ 	<p th:text="'form parameter... id=' + ${param.id[0] +', name='+ param.name[0]}"></p>
+	 
+	<!-- 텍스트 리터럴
+	th:text="onetwothree"
+	th:text="'one'+'two'+'three'" -->
+	
+	<p th:text="#{content.title}"></p>
+	<p th:text="#{content.message}"></p>
+	
+	<!-- <p><a th:href="@{'/home/' +${param.id[0]}}">link</a></p> -->
+	
+	
+</body>
+</html>

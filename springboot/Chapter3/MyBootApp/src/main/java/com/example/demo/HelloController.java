@@ -36,7 +36,7 @@ public class HelloController{
 	
 	
 	
-/*	  @RequestMapping("/{num}") 
+	  @RequestMapping("/{num}") 
 	  public String index(@PathVariable int num, Model model) {
 	  
 	  int res = 0; for(int i=1; i<=num; i++) { res += i; }
@@ -45,7 +45,7 @@ public class HelloController{
 	  
 	  return "index";
 	  
-	  }*/
+	  }
 	 
 	
 	/*

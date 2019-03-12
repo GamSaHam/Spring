@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top Page</title>
+</head>
+<body>
+
+	<h1 th:text="#{content.title}">Hello Page</h1>
+
+	<table>
+	
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>PhoneNumber</th>
+		</tr>
+		
+		<tr th:each="obj:${data}">
+			<td th:text="${obj[0]}"></td>
+			<td th:text="${obj[1]}"></td>
+			<td th:text="${obj[2]}"></td>
+			
+		</tr>
+	
+	</table>
+
+
+
+
+
+</body>
+</html>

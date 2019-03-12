@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Top page</title>
+
+<style type="text/css">
+	
+	h1{
+		font-size:18pt;
+		font-weight:bold;
+		color:gray;
+	}
+	
+	body{
+		font-size:13pt;
+		color:gray;
+		margin:5px 25px;
+	}
+	
+	tr{
+		margin:5px;
+	}
+	
+	th{
+		padding:5px; color:white; background:darkgray;
+	}
+	
+	td{
+		padding:5px; color:black; background:#e0e0ff;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<h1 th:text="#{content.title}">Hello Page</h1>
+	<p th:text="${msg}">message.</p>
+	
+	<table th:object="${object}">
+		<tr><th>ID</th><td th:text="*{id}"></td></tr>
+		<tr><th>NAME</th><td th:text="*{name}"></td></tr>
+		<tr><th>MAIL</th><td th:text="*{email}"></td></tr>
+	</table>
+	
+	<!-- 리터럴 치환 -->
+	<div th:object="${object}">
+		<p th:text="|my name is *{name}. mail address is *{email}|"></p>
+	</div>
+	
+	
+	
+</body>
+</html>

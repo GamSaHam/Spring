@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top Page</title>
+</head>
+<body>
+
+	<h1 th:text="#{content.title}">Hello Page</h1>
+	<p th:if="${check}" th:text="${id} + ' is ' + ${trueVal}">message</p>
+	<p th:unless="${check}" th:text="${id} + ' is ' + ${falseVal}">message</p>
+
+
+
+
+</body>
+</html>
