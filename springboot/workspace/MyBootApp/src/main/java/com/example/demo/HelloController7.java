@@ -27,6 +27,7 @@ public class HelloController7 {
 	
 	MyDataDaoImpl dao;
 	
+	/*
 	@PostConstruct
 	public void init() {
 		
@@ -60,6 +61,7 @@ public class HelloController7 {
 		repository.save(d3);
 		
 	}
+	*/
 	
 	@RequestMapping(value = "/example16", method = RequestMethod.GET)
 	public ModelAndView index(ModelAndView mav) {
