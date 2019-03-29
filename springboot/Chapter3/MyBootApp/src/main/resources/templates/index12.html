@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Top Page</title>
+	<style type="text/css">
+		
+		h1{ 
+			font-size:18pt;
+			font-weight:bold;
+			color:gray;
+			
+		}
+		
+		body{
+			font-size:13pt;
+			color:gray;
+			margin: 5px 25px;
+		}
+	</style>
+	
+	<!-- 인라인을 선언하여 주석구문에 인라인 처리를 할 수 있다. -->
+	<script type="text/javascript" th:inline="javascript">
+		
+		function action(){
+			
+			var val = document.getElementById("text1").value;
+			var res = parseInt(val * ((100 + /*[[${tax}]]*/)/100));
+			document.getElementById("msg").innerHTML = "include tax: " + res;
+			
+		}
+	
+	</script>
+</head>
+<body>
+	
+	<h1 th:text="#{content.title}">Hello Page</h1>	
+	<p id="msg"></p>
+	<input type="text" id="text1" />
+	<button onclick="action()">click</button>
+
+
+
+
+
+
+</body>
+</html>

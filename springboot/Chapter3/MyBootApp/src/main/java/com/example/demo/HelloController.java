@@ -71,6 +71,7 @@ public class HelloController{
 	 * @RequestParam을 통한
 	 */
 	
+	/*
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public ModelAndView index(ModelAndView mav) {
 		mav.setViewName("index");
@@ -86,6 +87,7 @@ public class HelloController{
 		return mav;
 		
 	}
+	*/
 	
 	
 	

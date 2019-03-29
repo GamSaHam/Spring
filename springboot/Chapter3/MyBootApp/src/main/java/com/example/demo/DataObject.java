@@ -1,13 +1,13 @@
 package com.example.demo;
 
-public class DateObject {
+public class DataObject {
 
 	private int id;
 	private String name;
 	private String email;
 	
 	
-	public DateObject(int id, String name, String email) {
+	public DataObject(int id, String name, String email) {
 		this.id = id;
 		this.name = name;
 		this.email = email;

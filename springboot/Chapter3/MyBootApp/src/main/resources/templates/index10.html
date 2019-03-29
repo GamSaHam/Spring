@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top Page</title>
+</head>
+<body>
+	<h1 th:text = "#{content.title}">Hello Page</h1>
+
+	<p th:text = "|expression[${check}]|"></p>
+
+	<table th:object="${data.get(__${check}__)}">
+		
+		<tr><th>ID</th><td th:text="*{id}"></td></tr>
+		<tr><th>ID</th><td th:text="*{name}"></td></tr>
+		<tr><th>ID</th><td th:text="*{email}"></td></tr>
+	
+	
+	</table>
+
+</body>
+</html>

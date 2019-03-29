@@ -16,7 +16,7 @@ public class HelloController4 {
 		
 		mav.setViewName("index4");
 		mav.addObject("msg", "current date.");
-		DateObject obj = new DateObject(123, "lee", "lee@flower");
+		DataObject obj = new DataObject(123, "lee", "lee@flower");
 		
 		mav.addObject("object", obj);
 		
