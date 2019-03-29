@@ -36,18 +36,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 @Entity
 @Table(name = "mydata")
 public class MyData {
-
-	@OneToMany(cascade=CascadeType.ALL)
-	@Column(nullable = true)
-	private List<MsgData> msgdatas;
 	
-	public List<MsgData> getMsgdatas() {
-		return msgdatas;
-	}
-
-	public void setMsgdatas(List<MsgData> msgdatas) {
-		this.msgdatas = msgdatas;
-	}
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
