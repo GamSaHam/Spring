@@ -8,11 +8,21 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+
+import com.example.demo.repositories.MyDataRepository;
 
 @Service
 public class MyDataService {
 
+	private static final int PAGE_SIZE = 3;
+	
+	@Autowired
+	MyDataRepository repository;
+	
 	@PersistenceContext
 	private EntityManager entityManager;
 
@@ -35,5 +45,15 @@ public class MyDataService {
 		list = (List<MyData>) entityManager.createQuery(query).getResultList();
 		return list;
 	}
+	
+	public Page<MyData> getMyDataInPage(Integer pageNumber){
+		
+		PageRequest pageRequest = new PageRequest(pageNumber - 1, PAGE_SIZE);
+		return repository.findAll(pageRequest);
+		
+		
+		
+	}
+	
 
 }
