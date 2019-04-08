@@ -1,0 +1,26 @@
+
+
+public class Main {
+
+	/*String url = "jdbc:mysql://127.0.0.1/testdb?serverTimezone=UTC&user=root&password=mysql";
+	Connection conn = null;
+	
+	
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	
+	
+	try {
+		conn = DriverManager.getConnection(url);
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+	*/
+		public static void main(String[] args) throws ClassNotFoundException {
+			
+			
+		
+			
+			
+			
+		}
+}
