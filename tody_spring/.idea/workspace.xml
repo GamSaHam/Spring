@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fb859a2-a09d-45f2-aa5f-c925c7ac9b5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.mylyn/.taskListIndex/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1/b0d2e4b5ac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/14/00c2e09bbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/17/10bfaadeb75900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/17/60fa7179bb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/19/40302bb4b65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1b/70dcebe2bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1d/b0531009ad5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1f/c020f1fdbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1f/c033121cad5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/24/e01b7e92bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/25/7062d3a9bb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/27/305a047bbb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/2d/8016c8cdac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/3c/0044d808be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/3c/50aaa636ac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/40/508d7fd1b95900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/41/7068ffbdac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/43/b0aa215eb85900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/47/d0678fdfb95900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/48/d0658092bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/4a/5058d7d2bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/4d/505129abc25900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/50/f0039783ac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/52/50cd5e94be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/55/d0b66cc4c15900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/61/30bd87f3b65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/62/20796b78b65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/69/00c46f92bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/6f/a042e403be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/7/0077e60fb75900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/7/604e6f2db65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/74/b0d54a6dbe5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/77/803b8442ac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/7e/c0b09e6fbe5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/7f/705d0278be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8/e09e4102ad5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/82/403b945ebb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/84/a01f4d6dbe5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8a/e03b58f9b65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8b/806be67dbb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/8f/800e9c1aad5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/93/002b6dcbb65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/93/a0904f6dbe5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/96/80a8c028b85900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/99/a0789392bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/a4/30c738e0b95900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b2/b01870a0be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b4/60400e65bb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b7/504a88a2be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/b8/0251de9bbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/bd/00d564ffbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/bf/0151de9bbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c/f096b469bb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c4/e0397992bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/cb/7025685bb75900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d/60c56990be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d0/80ef5832b65900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d3/40f123c1bd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d5/90b786bbbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/dd/80afd2a4be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e0/606ec453ac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e5/0051de9bbd5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/e7/8049af06be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/ee/80ba195bbb5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f/a09ee3b2c25900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f2/b0fbf3e7b55900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f5/e0b36b84be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f8/f09025dbac5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f8/f0c7d462b75900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.history/fe/c0fcde01be5900191e66a8f1959f460c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/.indexes/e4/7b/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/.indexes/e4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/chapter1/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.connectivity.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.datatools.connectivity.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.datatools.connectivity/ServerProfiles.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.datatools.connectivity/ServerProfiles.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.datatools.connectivity/driverManagerPreferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.datatools.connectivity/driverStorage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/Main.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1188785453.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1220418152.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1556330969.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1794327708.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1878111493.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/1897928139.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/2953298812.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3079686767.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3431489974.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3498974549.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3517127072.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3698278747.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3705452257.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/3861206012.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/402782763.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/434535315.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/58444662.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/899518542.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/904289187.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/972666350.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2019/4/15/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2019/4/15/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/chapter1/2019/4/15/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/chapter1/2019/4/15/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.4.0.20130601-0317.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.core/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.desktop-qronlsb_32639/FP.local.files_0/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.desktop-qronlsb_32639/H.local_16/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.desktop-qronlsb_32639/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.rse.ui/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/RemoteSystemsTempFiles/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/src/ConnectionMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/src/DConnectionMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/src/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/workspace/chapter1/src/UserDaoTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/DaoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/springbook/user/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/springbook/user/dao/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/springbook/user/dao/UserDaoTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="635" />
+    <option name="y" value="120" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tody_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tody_spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tody_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tody_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tody_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tody_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tody_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tody_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tody_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tody_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springbook.user.dao.UserDaoTest" />
+      <module name="spring30-1.final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springbook.user.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserDaoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fb859a2-a09d-45f2-aa5f-c925c7ac9b5a" name="Default Changelist" comment="" />
+      <created>1554795014378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554795014378</updated>
+      <workItem from="1554795017573" duration="2048000" />
+      <workItem from="1554797979278" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2083000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springbook/user/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springbook/user/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
