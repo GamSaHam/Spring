@@ -12,24 +12,33 @@ import springbook.user.domain.User;
 
 public class UserDao {
 	private DataSource dataSource;
-	
+	private JdbcContext jdbcContext;
+
 	public void setDataSource(DataSource dataSource) {
+		this.jdbcContext = new JdbcContext();
+		this.jdbcContext.setDatasource(dataSource);
+
 		this.dataSource = dataSource;
 	}
 
+
 	public void add(User user) throws SQLException {
-		Connection c = this.dataSource.getConnection();
 
-		PreparedStatement ps = c.prepareStatement(
-			"insert into users(id, name, password) values(?,?,?)");
-		ps.setString(1, user.getId());
-		ps.setString(2, user.getName());
-		ps.setString(3, user.getPassword());
+		this.jdbcContext.workWithstatmentStrategy(
+				new StatementStrategy() {
+					@Override
+					public PreparedStatement makePreparedStatement(Connection c) throws SQLException {
+						PreparedStatement ps = c.prepareStatement(
+								"insert into users(id, name, password) values(?,?,?)");
+						ps.setString(1, user.getId());
+						ps.setString(2, user.getName());
+						ps.setString(3, user.getPassword());
+						return ps;
+					}
+				}
 
-		ps.executeUpdate();
+		);
 
-		ps.close();
-		c.close();
 	}
 
 	public User get(String id) throws SQLException {
@@ -60,32 +69,49 @@ public class UserDao {
 	}
 
 	public void deleteAll() throws SQLException {
-		Connection c = dataSource.getConnection();
-
-		PreparedStatement ps = c.prepareStatement("delete from users");
-
-		ps.executeUpdate();
-
-		ps.close();
-		c.close();
+		this.jdbcContext.executeSql("delete from users");
 	}
 
 	public int getCount() throws SQLException {
-		Connection c = dataSource.getConnection();
+		Connection c = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
 
-		PreparedStatement ps = c.prepareStatement("select count(*) from users");
+		try{
+			c = dataSource.getConnection();
+			ps = c.prepareStatement("select count(*) from users");
+			rs = ps.executeQuery();
+			rs.next();
 
-		ResultSet rs = ps.executeQuery();
-		rs.next();
+			return rs.getInt(1);
+		}catch (SQLException e){
+			throw e;
+		}finally {
+			if(rs != null){
+				try {
+					rs.close();
+				}catch (SQLException e){
 
-		int count = rs.getInt(1);
+				}
+			}
 
-		rs.close();
-		ps.close();
-		c.close();
+			if(ps != null){
+				try {
+					ps.close();
+				}catch (SQLException e){
 
-		return count;
+				}
+			}
+
+			if(c != null){
+				try {
+					c.close();
+				}catch (SQLException e){
+
+				}
+			}
+		}
+
 	}
-
 
 }
