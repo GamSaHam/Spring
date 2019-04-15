@@ -11,7 +11,7 @@
 		<property name="password" value="mysql"></property>
 	</bean>
 
-	<bean id="userService" class="springbook.user.service.UserService">
+	<bean id="userService" class="springbook.user.service.UserServiceImpl">
 		<property name="userDao" ref="userDao"></property>
 		<property name="transactionManager" ref="transactionManager"></property>
 		<property name="mailSender" ref="mailSender"></property>
@@ -27,7 +27,7 @@
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
 
-	<bean id="mailSender" class="springbook.user.service.DummyMailSender" />
+	<bean id="mailSender" class="springbook.user.mail.MockMailSender" />
 
 
 </beans>
