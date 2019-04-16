@@ -13,7 +13,6 @@
 
 	<bean id="userService" class="springbook.user.service.UserServiceImpl">
 		<property name="userDao" ref="userDao"></property>
-		<property name="transactionManager" ref="transactionManager"></property>
 		<property name="mailSender" ref="mailSender"></property>
 	</bean>
 
@@ -29,5 +28,24 @@
 
 	<bean id="mailSender" class="springbook.user.mail.MockMailSender" />
 
+	<bean id="transactionAdvice" class="springbook.user.service.TransactionAdvice">
+		<property name="transactionManager" ref="transactionManager"></property>
+	</bean>
+
+
+
+	<bean id="transactionAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice" ref="transactionAdvice"></property>
+		<property name="pointcut" ref="transactionPointcut"></property>
+	</bean>
+
+	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+
+	<bean id="transactionPointcut" class="springbook.user.service.NameMatchClassMethodPointcut">
+		<property name="mappedClassName" value="*ServiceImpl" ></property>
+		<property name="mappedName" value="upgrade*"></property>
+	</bean>
+
+	<bean id="testUserService" class="springbook.user.service.UserServiceTest$TestUserServiceImpl" parent="userService"></bean>
 
 </beans>

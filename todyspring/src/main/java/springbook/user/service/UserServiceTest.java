@@ -1,12 +1,15 @@
-package springbook.user.junit;
+package springbook.user.service;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
+import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
+import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.PlatformTransactionManager;
@@ -15,9 +18,6 @@ import springbook.user.dao.UserDao;
 import springbook.user.domain.Level;
 import springbook.user.domain.User;
 import springbook.user.mail.MockMailSender;
-import springbook.user.service.UserService;
-import springbook.user.service.UserServiceImpl;
-import springbook.user.service.UserServiceTx;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,6 +25,7 @@ import java.util.List;
 
 import static junit.framework.TestCase.fail;
 import static org.hamcrest.core.Is.is;
+import static org.hamcrest.core.IsInstanceOf.instanceOf;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.*;
@@ -37,13 +38,16 @@ import static springbook.user.service.UserServiceImpl.MIN_RECCOMEND_FOR_GOLD;
 public class UserServiceTest {
 
     @Autowired
+    ApplicationContext context;
+
+    @Autowired
     UserDao userDao;
 
     @Autowired
     UserService userService;
 
     @Autowired
-    UserServiceImpl userServiceImpl;
+    UserService testUserService;
 
     @Autowired
     PlatformTransactionManager transactionManager;
@@ -140,16 +144,10 @@ public class UserServiceTest {
 
     }
 
+
     @Test
-    public void upgradeAllOrNothing() throws Exception{
-        TestUserService testUserService = new TestUserService(users.get(3).getId());
-        testUserService.setUserDao(userDao);
-        testUserService.setMailSender(mailSender);
-
-        UserServiceTx txUserService = new UserServiceTx();
-        txUserService.setTransactionManager(transactionManager);
-        txUserService.setUserService(testUserService);
-
+    @DirtiesContext
+    public void upgradeAllOrNothing() throws Exception {
         userDao.deleteAll();
 
         for(User user : users){
@@ -157,7 +155,7 @@ public class UserServiceTest {
         }
 
         try {
-            txUserService.upgradeLevels();
+            this.testUserService.upgradeLevels();
             fail("TestUserServiceException expected");
         }
         catch(TestUserServiceException e) {
@@ -199,6 +197,26 @@ public class UserServiceTest {
 
     }
 
+    static class TestUserServiceImpl extends UserServiceImpl {
+        private String id = "madnite1";
+
+        protected void upgradeLevel(User user) {
+            if(user.getId().equals(this.id)) throw new TestUserServiceException();
+            super.upgradeLevel(user);
+
+        }
+
+    }
+
+    @Test
+    public void advisorAutoProxyCreator(){
+        assertThat(testUserService, instanceOf(java.lang.reflect.Proxy.class));
+    }
+
 
 
 }
+
+
+
+

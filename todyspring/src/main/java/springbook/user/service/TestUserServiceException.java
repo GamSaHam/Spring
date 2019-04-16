@@ -1,4 +1,4 @@
-package springbook.user.junit;
+package springbook.user.service;
 
 public class TestUserServiceException extends RuntimeException {
 
