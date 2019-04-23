@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="message" class="springbook.user.study.pointcut.factorybean.MessageFactoryBean">
+    <bean id="message" class="springbook.user.study.factorybean.MessageFactoryBean">
         <property name="text" value="Factory Bean"></property>
     </bean>
 

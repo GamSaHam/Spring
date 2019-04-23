@@ -57,6 +57,29 @@
             <version>1.10.19</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.8.9</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-oxm -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+            <version>4.3.18.RELEASE</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.codehaus.castor/com.springsource.org.castor -->
+        <!--<dependency>
+            <groupId>org.codehaus.castor</groupId>
+            <artifactId>com.springsource.org.castor</artifactId>
+            <version>1.2.0</version>
+        </dependency>-->
+
+
+
 
 
 

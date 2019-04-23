@@ -1,51 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans 
-						http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context-3.0.xsd
+						http://www.springframework.org/schema/tx
+						http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
 
-	<bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
-		<property name="driverClass" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost/testdb?characterEncoding=UTF-8&amp;serverTimezone=UTC" />
-		<property name="username" value="root"></property>
-		<property name="password" value="mysql"></property>
-	</bean>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/testdb?characterEncoding=UTF-8&amp;serverTimezone=UTC"/>
+        <property name="username" value="root"></property>
+        <property name="password" value="mysql"></property>
+    </bean>
 
-	<bean id="userService" class="springbook.user.service.UserServiceImpl">
-		<property name="userDao" ref="userDao"></property>
-		<property name="mailSender" ref="mailSender"></property>
-	</bean>
-
-
-	<bean id="userDao" class="springbook.user.dao.UserDaoJdbc">
-		<property name="dataSource" ref="dataSource"></property>
-	</bean>
-
-	<bean id="transactionManager"
-		  class = "org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource"></property>
-	</bean>
-
-	<bean id="mailSender" class="springbook.user.mail.MockMailSender" />
-
-	<bean id="transactionAdvice" class="springbook.user.service.TransactionAdvice">
-		<property name="transactionManager" ref="transactionManager"></property>
-	</bean>
+    <bean id="userService" class="springbook.user.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+        <property name="mailSender" ref="mailSender"></property>
+    </bean>
 
 
+    <bean id="userDao" class="springbook.user.dao.UserDaoJdbc">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="sqlService" ref="sqlService"></property>
+    </bean>
 
-	<bean id="transactionAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
-		<property name="advice" ref="transactionAdvice"></property>
-		<property name="pointcut" ref="transactionPointcut"></property>
-	</bean>
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
 
-	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+    <bean id="mailSender" class="springbook.user.mail.MockMailSender"/>
 
-	<bean id="transactionPointcut" class="springbook.user.service.NameMatchClassMethodPointcut">
-		<property name="mappedClassName" value="*ServiceImpl" ></property>
-		<property name="mappedName" value="upgrade*"></property>
-	</bean>
+    <tx:advice id="transactionAdvice">
+        <tx:attributes>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="*"/>
+        </tx:attributes>
 
-	<bean id="testUserService" class="springbook.user.service.UserServiceTest$TestUserServiceImpl" parent="userService"></bean>
+
+    </tx:advice>
+
+
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+
+
+    <bean id="testUserService" class="springbook.user.service.UserServiceTest$TestUserService" parent="userService">
+
+    </bean>
+
+    <aop:config>
+
+        <aop:advisor advice-ref="transactionAdvice" pointcut="bean(*Service)"/>
+    </aop:config>
+
+    <tx:annotation-driven/> <!--@Transactional-->
+
+    <bean id="sqlService" class="springbook.user.sqlservice.OxmSqlService">
+        <property name="unmarshaller" ref="ummarshaller"></property>
+        <property name="sqlmap" value="classpath:sqlmap.xml"></property>
+    </bean>
+
+    <bean id="ummarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+        <property name="contextPath" value="springbook.user.sqlservice.jaxb"></property>
+    </bean>
+
+
+
+
+    <context:annotation-config></context:annotation-config> <!--@PostConstruct-->
+
 
 </beans>

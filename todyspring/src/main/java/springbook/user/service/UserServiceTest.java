@@ -4,15 +4,19 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
-import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.dao.TransientDataAccessResourceException;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.test.annotation.DirtiesContext;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
 import springbook.user.dao.MockUserDao;
 import springbook.user.dao.UserDao;
 import springbook.user.domain.Level;
@@ -21,7 +25,6 @@ import springbook.user.mail.MockMailSender;
 
 import java.util.Arrays;
 import java.util.List;
-
 
 import static junit.framework.TestCase.fail;
 import static org.hamcrest.core.Is.is;
@@ -35,7 +38,10 @@ import static springbook.user.service.UserServiceImpl.MIN_RECCOMEND_FOR_GOLD;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "/test-applicationContext.xml")
+//@Transactional
+//@TransactionConfiguration(defaultRollback = false) // 롤백여부를 클래서스에 설정하고 @Rollback어노테이션은 자동으로 false이다.
 public class UserServiceTest {
+
 
     @Autowired
     ApplicationContext context;
@@ -70,7 +76,23 @@ public class UserServiceTest {
         );
     }
 
+    static class TestUserService extends UserServiceImpl {
+        private String id = "madnite1";
 
+        protected void upgradeLevel(User user) {
+            if(user.getId().equals(this.id)) throw new TestUserServiceException();
+            super.upgradeLevel(user);
+
+        }
+
+        public List<User> getAll() {
+            for(User user : super.getAll()) {
+                super.update(user);
+            }
+            return null;
+        }
+
+    }
 
     @Test
     public void bean(){
@@ -197,25 +219,59 @@ public class UserServiceTest {
 
     }
 
-    static class TestUserServiceImpl extends UserServiceImpl {
-        private String id = "madnite1";
 
-        protected void upgradeLevel(User user) {
-            if(user.getId().equals(this.id)) throw new TestUserServiceException();
-            super.upgradeLevel(user);
-
-        }
-
-    }
 
     @Test
     public void advisorAutoProxyCreator(){
         assertThat(testUserService, instanceOf(java.lang.reflect.Proxy.class));
     }
 
+    @Test(expected = TransientDataAccessResourceException.class)
+    public void readOnlyTransactionAttribute(){
+
+        testUserService.getAll();
+
+    }
+
+    @Test(expected = TransientDataAccessResourceException.class)
+    @Transactional(readOnly = true)
+    public void transactionSync(){
+        DefaultTransactionDefinition txDefinition = new DefaultTransactionDefinition();
+        txDefinition.setReadOnly(true);
+
+        TransactionStatus txStatus = transactionManager.getTransaction(txDefinition);
+
+        userService.deleteAll();
+
+        userService.add(users.get(0));
+        userService.add(users.get(1));
+
+        transactionManager.commit(txStatus);
+
+       // userService.deleteAll();
+
+    }
+
+    @Test
+    @Transactional
+    //@Transactional(propagation=Propagation.NEVER) 로 트렌젝션을 허용안하는것도 있다.
+    @Rollback(true)
+    public void transactionSync2(){
+
+        userService.deleteAll();
+        userService.add(users.get(0));
+        userService.add(users.get(1));
+
+
+    }
+
 
 
 }
+
+
+
+
 
 
 
