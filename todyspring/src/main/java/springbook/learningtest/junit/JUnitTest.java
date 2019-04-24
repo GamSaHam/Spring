@@ -5,7 +5,6 @@ import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
-import static org.junit.matchers.JUnitMatchers.either;
 import static org.junit.matchers.JUnitMatchers.hasItem;
 
 import java.util.HashSet;
@@ -19,7 +18,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("junit.xml")
+@ContextConfiguration("classpath:/springbook/learningtest/junit/junit.xml")
 public class JUnitTest {
 	@Autowired ApplicationContext context;
 	
