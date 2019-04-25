@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c863910-1fa0-4ac1-a573-089593dab8ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/AppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/EnableSqlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/SqlMapConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/TestApplicationContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/jdk/jaxb/JaxbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningtest/jdk/jaxb/JaxbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/jdk/jaxb/sqlmap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/jdk/jaxb/sqlmap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/junit/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningtest/junit/JUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/junit/junit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/junit/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/embeddeddb/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/embeddeddb/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/embeddeddb/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/embeddeddb/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/factorybean/FactoryBeanTest-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/factorybean/FactoryBeanTest-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/OxmTest-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/oxm/OxmTest-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/OxmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/OxmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/oxm/mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/sqlmap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/oxm/sqlmap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/user/TestApplicationContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/AppContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/TestApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningtest/jdk/jaxb/JaxbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningtest/jdk/jaxb/JaxbTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningtest/junit/JUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningtest/junit/JUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningtest/spring/oxm/OxmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningtest/spring/oxm/OxmTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/user/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/user/dao/UserDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$MockMailSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$MockMailSender.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$MockUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$MockUserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$TestUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/user/service/UserServiceTest$TestUserService.class" afterDir="false" />
@@ -63,19 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoJdbc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-529">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="414">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,21 +55,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/SqlService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="36">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/AppContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="234">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,48 +88,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/AppContext.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/EnableSqlService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-                <element signature="e#1868#1869#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/SqlUpdateFailureException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/SqlMapConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoTest.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,6 +135,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -167,6 +145,9 @@
       <find>springbook/user/sqlservice/updatable/sqlRegistrySchema.sql</find>
       <find>sqlmap.xml</find>
       <find>sqlmap.xsd</find>
+      <find>sqlMapConfig</find>
+      <find>userDaoJdbc</find>
+      <find>sqlService</find>
     </findStrings>
     <dirStrings>
       <dir>C:\test\src</dir>
@@ -193,17 +174,24 @@
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/OxmTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springbook/learningtest/spring/oxm/OxmTest-context.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/ProductionAppContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/TestAppContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/AppContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/UserSqlService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/UserSqlmap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/UserSqlmapConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/SqlMapConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/UserSqlMapConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/EnableSqlService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/AppContext.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="125" />
+    <option name="x" value="237" />
     <option name="y" value="-9" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -214,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +243,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springbook" type="462c0819:PsiDirectoryNode" />
+              <item name="learningtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todyspring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todyspring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbook" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,24 +281,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="todyspring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todyspring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/springbook" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -308,6 +300,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="springbook" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\git\Spring\todyspring\src\main\java\springbook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\git\Spring\todyspring\src\main\resources\springbook\learningtest\spring\oxm" />
@@ -429,49 +424,50 @@
       <workItem from="1556094677232" duration="27000" />
       <workItem from="1556094967227" duration="92000" />
       <workItem from="1556095080286" duration="4607000" />
+      <workItem from="1556154288740" duration="6644000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PointcutExpressionTest - 2019.04.24 at 18h 57m 36s.xml">
-      <configuration name="PointcutExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2019.04.24 at 18h 57m 44s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest - 2019.04.24 at 18h 57m 50s.xml">
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 24m 03s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OxmTest - 2019.04.24 at 18h 58m 32s.xml">
-      <configuration name="OxmTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OxmTest - 2019.04.24 at 19h 01m 59s.xml">
-      <configuration name="OxmTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest - 2019.04.24 at 19h 29m 25s.xml">
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 27m 01s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2019.04.24 at 19h 29m 44s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest - 2019.04.24 at 19h 39m 05s.xml">
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 28m 39s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest - 2019.04.24 at 19h 41m 28s.xml">
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 31m 56s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest - 2019.04.24 at 19h 46m 25s.xml">
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 32m 26s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 33m 03s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 33m 14s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 34m 52s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 35m 04s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.25 at 12h 37m 11s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6193000" />
+    <option name="totallyTimeSpent" value="12837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -622,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningtest/spring/oxm/OxmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
@@ -636,23 +625,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/TestApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/TestApplicationContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/TestApplicationContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/TestAppContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/ProductionAppContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/SqlUpdateFailureException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="72">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -667,40 +653,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoJdbc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/SqlUpdateFailureException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/TestApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="110" lean-forward="true" selection-start-line="1" selection-end-line="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/TestAppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/dao/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="72">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -708,46 +670,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/ProductionAppContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="54">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/UserSqlmapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/sqlservice/SqlService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/AppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/user/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="414">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/UserSqlMapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/SqlMapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/SqlServiceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/EnableSqlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
           </folding>
         </state>
       </provider>
