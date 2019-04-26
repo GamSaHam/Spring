@@ -1,4 +1,4 @@
-package learningTest.IocContainer;
+package springbook.learningTest.spring.ioc.bean;
 
 import org.junit.Test;
 import org.springframework.beans.factory.config.BeanDefinition;

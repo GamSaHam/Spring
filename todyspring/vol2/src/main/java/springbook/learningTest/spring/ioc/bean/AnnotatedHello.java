@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.ioc.bean;
+package springbook.learningTest.spring.ioc.bean;
 
 public class AnnotatedHello {
 }

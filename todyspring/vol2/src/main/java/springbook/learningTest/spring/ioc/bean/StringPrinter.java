@@ -1,4 +1,5 @@
-package learningTest.IocContainer;
+package springbook.learningTest.spring.ioc.bean;
+
 
 public class StringPrinter implements Printer {
 
