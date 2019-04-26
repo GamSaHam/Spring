@@ -4,7 +4,10 @@ import org.junit.Test;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.RuntimeBeanReference;
 import org.springframework.beans.factory.support.RootBeanDefinition;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.StaticApplicationContext;
+import springbook.AnnotatedHelloConfig;
 
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNull.notNullValue;
@@ -73,6 +76,21 @@ public class HelloTest {
 
     }
 
+    @Test
+    public void annotationHelloConfigTest(){
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AnnotatedHelloConfig.class);
+
+        AnnotatedHello hello = ctx.getBean("annotatedHello", AnnotatedHello.class);
+
+        assertThat(hello, is(notNullValue()));
+
+        AnnotatedHelloConfig config = ctx.getBean("annotatedHelloConfig", AnnotatedHelloConfig.class);
+
+        assertThat(config, is(notNullValue()));
+
+        assertThat(config.annotatedHello(), is(hello));
+
+    }
     
 
 
