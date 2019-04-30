@@ -9,20 +9,30 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.context.support.StaticApplicationContext;
+import org.springframework.core.env.PropertiesPropertySource;
+import org.springframework.core.env.PropertySource;
 import springbook.AnnotatedHelloConfig;
 import springbook.HelloConfig2;
+import springbook.SimpleConfig;
 import springbook.TypeClassConfig;
 
-import javax.annotation.PostConstruct;
-import java.lang.annotation.Annotation;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Paths;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.hamcrest.core.IsNull.nullValue;
 import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 public class HelloTest {
 
@@ -303,6 +313,62 @@ public class HelloTest {
 
 
     }
+
+    @Test
+    public void simpleServiceTest(){
+
+        ApplicationContext ac = new GenericXmlApplicationContext("/test-containerInfraBean-applicationContext.xml");
+
+
+        SimpleConfig sc = ac.getBean(SimpleConfig.class);
+        sc.hello.sayHello();
+
+    }
+
+    @Test
+    public void profileTest(){
+        GenericXmlApplicationContext gac = new GenericXmlApplicationContext();
+
+        gac.getEnvironment().setActiveProfiles("dev");
+
+        gac.load(getClass(), "/test-profile-applicationContext.xml");
+        gac.refresh();
+
+        BeanDefinitionUtils.printBeanDefinition(gac);
+        assertTrue(gac.getBean("printer", Printer.class) instanceof StringPrinter);
+
+        // JVM 커맨드 파라미터에 프로파일을 활성화 시킬수 있다.
+
+        // Dspring.profiles.active = dev
+
+        //@Profile("dev")로 지정 해서 사용할 수 있다.
+
+
+    }
+
+    @Test
+    public void environmentPropertiesTest() throws IOException, URISyntaxException {
+
+        // 시스템 프로퍼티를 설정한 예시
+
+        Properties p = new Properties();
+        p.put("db.username", "root");
+
+        PropertySource<?> ps = new PropertiesPropertySource("customPropertySource", p);
+
+        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext();
+
+        ac.getEnvironment().getPropertySources().addFirst(ps);
+
+        String username = (String)ac.getEnvironment().getPropertySources().get("customPropertySource").getProperty("db.username");
+
+
+        assertThat(username, is("root"));
+
+    }
+
+
+
 
 
 

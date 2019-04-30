@@ -1,10 +1,12 @@
 package springbook.learningTest.spring.ioc.bean;
 
 
+import org.omg.CORBA.Environment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 @Component
@@ -55,6 +57,16 @@ public class Hello {
     public void destroyMethodTest(){
         System.out.println("Call the destroy-mehtod");
     }
+
+
+
+    @PostConstruct
+    public void init(){
+        System.out.println("Init");
+
+
+    }
+
 
 
 
