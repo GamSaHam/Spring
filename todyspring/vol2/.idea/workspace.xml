@@ -7,29 +7,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2edde0bb-a354-48a1-b99b-d0e857820121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/SimpleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/BeanDefinitionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/HelloComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/IServiceMarker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test-containerInfraBean-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test-profile-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vol2-30/vol2-30.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AbstractDispatcherServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AfterRunService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/ConfigurableDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/ServletControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleGetServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleHelloControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcherServlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/helloSpring.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/artifacts/untitled1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/artifacts/untitled2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/JAX_WS_Apache_Axis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_aop_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_beans_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_context_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_core_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_expression_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_web_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/src/main/java/springbook/tmp/HelloSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/web/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled2/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/vol2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/vol2_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/AnnotatedHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/AnnotatedHello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/ConsolePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/ConsolePrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/StringPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/ioc/bean/StringPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/test-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/BeanDefinitionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/util/BeanDefinitionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/MyController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeClientBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeClientBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonClientBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonClientBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$PrototypeClientBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest$SingletonClientBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/PropertiesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/PropertiesClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/TypeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springbook/learningTest/spring/ioc/bean/TypeClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vol2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vol2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,107 +123,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="28" column="65" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AbstractDispatcherServletTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+              <folding>
+                <element signature="e#4323#4324#0" expanded="true" />
+                <element signature="e#4377#4378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleHelloControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/io/Resource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test-applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/IServiceMarker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test-profile-applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2436#2452#0" expanded="true" />
+                <element signature="e#2679#2695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/ServletControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AfterRunService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#725#741#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloSpring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -154,6 +244,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
@@ -165,6 +256,9 @@
       <find>ApplicationContext</find>
       <find>ClassPathXmlApplicationContext</find>
       <find>serviceRequest</find>
+      <find>TypeClass</find>
+      <find>/hello</find>
+      <find>hel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,37 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Printer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/StringPrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/AnnotatedHelloConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/AnnotatedHelloConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/HelloConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-applicationContext2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/ConsolePrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/HelloConfig2.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-applicationContext3.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/AutoWiredTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/AutoWiredAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/TypeClassConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-type-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-properties-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/tet-spel-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-spel-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/ApplicationBeanConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/ApplicationBeanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-bean-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-beanB-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-beanA-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/ApplicationBeanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/SimgletonBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/SimgletonClientBean.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test-dl-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/DlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/DlConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/ScopeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/service/Login.java" />
@@ -219,11 +282,42 @@
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/ServiceMarker.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/SeviceMaker2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/test-profile-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/util/BeanDefinitionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/util/BeanDefinitionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/MyContextInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/HelloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/jdbc/JdbcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloSpring.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/hello.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/helloSpring.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/DispatcherServlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcherServlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleGetServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/t.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/ConfigurableDispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AfterRunService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AbstractDispatcherServletTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleHelloControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/ServletControllerTest.java" />
       </list>
     </option>
   </component>
@@ -246,8 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,6 +350,11 @@
             <path>
               <item name="vol2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vol2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vol2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,7 +385,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springbook" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vol2" type="b2602c69:ProjectViewProjectNode" />
@@ -297,8 +394,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springbook" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vol2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbook" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vol2" type="b2602c69:ProjectViewProjectNode" />
@@ -323,36 +431,46 @@
               <item name="vol2" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../workspace" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\dev\git\Spring\todyspring\vol2\web\WEB-INF\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\git\Spring\todyspring\vol2\src\main\resources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="springbook.learningTest.spring.ioc.bean.service" />
       <recent name="springbook.learningTest.spring.ioc.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\git\Spring\todyspring\vol2\src\main\java\springbook\learningTest\spring\mvc\controller" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\src\main\java\springbook\learningTest\spring\mvc" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\out\artifacts\vol2_war_exploded\WEB-INF\classes\springbook\learningTest\spring\mvc\controller" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\web" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\git\Spring\todyspring\vol2\src\main\resources" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\web" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\web\WEB-INF" />
+      <recent name="D:\dev\git\Spring\todyspring\vol2\web\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,103 +485,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloTest.environmentPropertiesTest">
-    <configuration name="AppConfigTest.appConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ServletControllerTest">
+    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vol2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.test.*" />
+          <option name="PATTERN" value="springbook.learningTest.spring.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.test" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.test.AppConfigTest" />
-      <option name="METHOD_NAME" value="appConfigTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vol2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.bean.scopeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.bean" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.bean.DlTest" />
+      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.mvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.mvc.controller.HelloControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloTest.environmentPropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloControllerTest.servletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vol2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.bean.*" />
+          <option name="PATTERN" value="springbook.learningTest.spring.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.bean" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.bean.HelloTest" />
-      <option name="METHOD_NAME" value="environmentPropertiesTest" />
+      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.mvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.mvc.controller.HelloControllerTest" />
+      <option name="METHOD_NAME" value="servletTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloTest.getSystemEnvironment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServletControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vol2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.bean.*" />
+          <option name="PATTERN" value="springbook.learningTest.spring.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.bean" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.bean.HelloTest" />
-      <option name="METHOD_NAME" value="getSystemEnvironment" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.mvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.mvc.controller.ServletControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloTest.profileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleHelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vol2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.bean.*" />
+          <option name="PATTERN" value="springbook.learningTest.spring.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.bean" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.bean.HelloTest" />
-      <option name="METHOD_NAME" value="profileTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.mvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.mvc.controller.SimpleHelloControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloTest.readPropertiesFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vol2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springbook.learningTest.spring.ioc.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springbook.learningTest.spring.ioc.bean" />
-      <option name="MAIN_CLASS_NAME" value="springbook.learningTest.spring.ioc.bean.HelloTest" />
-      <option name="METHOD_NAME" value="readPropertiesFileTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="index.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/index.jsp">
+      <method v="2" />
     </configuration>
-    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.191" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.191" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="vol2:war exploded">
@@ -473,7 +560,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_19_vol2" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_19_vol2_4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -598,13 +685,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.191" />
+      <item itemvalue="JUnit.HelloControllerTest.servletTest" />
+      <item itemvalue="JUnit.HelloControllerTest" />
+      <item itemvalue="JUnit.SimpleHelloControllerTest" />
+      <item itemvalue="JUnit.ServletControllerTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloTest.environmentPropertiesTest" />
-        <item itemvalue="JUnit.HelloTest.getSystemEnvironment" />
-        <item itemvalue="JUnit.HelloTest.readPropertiesFileTest" />
-        <item itemvalue="JUnit.HelloTest.profileTest" />
-        <item itemvalue="JUnit.AppConfigTest.appConfigTest" />
+        <item itemvalue="JUnit.ServletControllerTest" />
+        <item itemvalue="JUnit.SimpleHelloControllerTest" />
+        <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="JUnit.HelloControllerTest.servletTest" />
+        <item itemvalue="JavaScript Debug.index.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -623,49 +718,59 @@
       <workItem from="1556265095978" duration="2526000" />
       <workItem from="1556499517324" duration="23253000" />
       <workItem from="1556585814218" duration="13764000" />
+      <workItem from="1556672358933" duration="20731000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloTest_readPropertiesFileTest - 2019.04.30 at 12h 05m 15s.xml">
-      <configuration name="HelloTest.readPropertiesFileTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 09m 17s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_readPropertiesFileTest - 2019.04.30 at 12h 05m 56s.xml">
-      <configuration name="HelloTest.readPropertiesFileTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 09m 32s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_readPropertiesFileTest - 2019.04.30 at 12h 06m 12s.xml">
-      <configuration name="HelloTest.readPropertiesFileTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 09m 56s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_readPropertiesFileTest - 2019.04.30 at 12h 06m 25s.xml">
-      <configuration name="HelloTest.readPropertiesFileTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 10m 14s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_environmentPropertiesTest - 2019.04.30 at 14h 03m 29s.xml">
-      <configuration name="HelloTest.environmentPropertiesTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 11m 53s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_environmentPropertiesTest - 2019.04.30 at 14h 05m 55s.xml">
-      <configuration name="HelloTest.environmentPropertiesTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 12m 09s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_getSystemEnvironment - 2019.04.30 at 14h 09m 15s.xml">
-      <configuration name="HelloTest.getSystemEnvironment" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest_servletTest - 2019.05.01 at 17h 12m 19s.xml">
+      <configuration name="HelloControllerTest.servletTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_environmentPropertiesTest - 2019.04.30 at 17h 14m 25s.xml">
-      <configuration name="HelloTest.environmentPropertiesTest" configurationId="JUnit" />
+    <history-entry file="HelloControllerTest - 2019.05.01 at 17h 13m 51s.xml">
+      <configuration name="HelloControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_environmentPropertiesTest - 2019.04.30 at 17h 22m 51s.xml">
-      <configuration name="HelloTest.environmentPropertiesTest" configurationId="JUnit" />
+    <history-entry file="SimpleHelloControllerTest - 2019.05.01 at 17h 18m 07s.xml">
+      <configuration name="SimpleHelloControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_environmentPropertiesTest - 2019.04.30 at 18h 36m 00s.xml">
-      <configuration name="HelloTest.environmentPropertiesTest" configurationId="JUnit" />
+    <history-entry file="ServletControllerTest - 2019.05.01 at 18h 30m 49s.xml">
+      <configuration name="ServletControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39984000" />
+    <option name="totallyTimeSpent" value="60715000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24362417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -679,15 +784,15 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32998565" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -703,196 +808,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloController.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/parentContext.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/childContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parentContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/AnnotatedHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/StringPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-applicationContext2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/ConsolePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-applicationContext3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/TypeClassConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-spel-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-beanB-applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-beanA-applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/ApplicationBeanTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/SingletonBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/SingletonClientBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/DlConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/DlTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/scopeTest/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/scopeTest/LoginUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/scopeTest/ScopeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/scopeTest/LoginService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-dl-applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-type-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/AutoWiredAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-properties-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#728#744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/HelloConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test-containerInfraBean-applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -931,17 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/BeanDefinitionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/AnnotatedHelloConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -954,30 +871,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/SeviceMaker2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/ServiceMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/SeviceMaker2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/ServiceMarker.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/HelloComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -992,47 +887,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/io/Resource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/scanner/IServiceMarker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="234">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1043,36 +918,381 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/io/Resource.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/HelloConfig2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="162">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/HelloTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/TypeClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+        <state relative-caret-position="-363">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/PropertiesClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/util/BeanDefinitionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/AppConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1135#1151#1" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/bean/MyContextInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/jdbc/JdbcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="210" column="1" lean-forward="true" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2463#2479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/ioc/test/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/helloSpring.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleGetServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/ConfigurableDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/ConfigurableDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcherServlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/vol2_war_exploded/WEB-INF/classes/springbook/learningTest/spring/mvc/controller/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/ConfigurableDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#725#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AfterRunService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/HelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleHelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/AbstractDispatcherServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+          <folding>
+            <element signature="e#4323#4324#0" expanded="true" />
+            <element signature="e#4377#4378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/ServletControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2436#2452#0" expanded="true" />
+            <element signature="e#2679#2695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1096,6 +1316,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1134,7 +1355,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1154,6 +1374,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

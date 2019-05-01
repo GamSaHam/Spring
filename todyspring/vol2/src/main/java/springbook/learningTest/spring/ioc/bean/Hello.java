@@ -33,6 +33,10 @@ public class Hello {
     public void setName(String name){
         this.name = name;
     }
+    public String getName(){
+        return this.name;
+    }
+
 
     @Resource(name = "printer") // <property name="printer" ref = printer" /> 와 같다.
     // application.xml에 <context:annotation-config /> 을 추가해 주어야 한다.

@@ -1,11 +1,16 @@
 package springbook.learningTest.spring.ioc.config;
 
 
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import springbook.learningTest.spring.ioc.scanner.IServiceMarker;
 
 import javax.xml.ws.Service;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
 @Configuration
 /*@ComponentScan("springbook.learningTest.spring.ioc.scanner")*/
@@ -16,10 +21,16 @@ import javax.xml.ws.Service;
 /*@ImportResource("") // xml 빈설정을 가져올대 사용되어 진다. ""문장안에는 확장자가 .xml 인 파일경로를 넣어준다. */
 /*@EnableTransactionManagement // tx:annotation-driven 테그와 동일하게 동작한다. @Transactional 을 사용할수 있게 해주는 어노테이션이다*/
 
-
+@PropertySource("/database.properties")
 public class AppConfig {
 
+    @Value("${db.username}")
+    String username;
 
+    @Bean
+    public String getUsername(){
+        return username;
+    }
 
 
 }

@@ -1,10 +1,8 @@
 package springbook.learningTest.spring.ioc.test;
 
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.GenericApplicationContext;
-import springbook.learningTest.spring.ioc.bean.BeanDefinitionUtils;
 import springbook.learningTest.spring.ioc.bean.Hello;
 import springbook.learningTest.spring.ioc.config.AppConfig;
 

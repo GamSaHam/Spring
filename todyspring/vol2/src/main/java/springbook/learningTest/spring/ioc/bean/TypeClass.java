@@ -17,10 +17,6 @@ public class TypeClass {
     Properties settings;
     String str;
 
-    public void setStr(String str) {
-        this.str = str;
-    }
-
     public boolean isFlag() {
         return flag;
     }
@@ -67,5 +63,13 @@ public class TypeClass {
 
     public void setSettings(Properties settings) {
         this.settings = settings;
+    }
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
     }
 }
