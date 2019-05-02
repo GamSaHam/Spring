@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:annotation-config />
+	<context:annotation-config /> <!--Autowired, Resource 어노테이션을 사용할려면 태그 추가해야함-->
 
 	<bean id="productService" class="net.madvirus.spring4.chap02.shop.ProductService">
 	</bean>

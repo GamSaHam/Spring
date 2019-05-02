@@ -15,6 +15,8 @@ public class MainByJavaConfig {
 		useMultipleClass();
 	}
 
+
+
 	private static void useSingleClass() {
 		AnnotationConfigApplicationContext ctx =
 				new AnnotationConfigApplicationContext(Config.class);

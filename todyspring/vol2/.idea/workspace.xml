@@ -69,11 +69,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="404">
+              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2436#2452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -235,8 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,6 +331,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +340,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/springbook/learningTest/spring" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring4-master/mvnprj/spring4-chap01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring4/mvnprj/spring4-chap01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -615,6 +614,7 @@
       <workItem from="1556585814218" duration="13764000" />
       <workItem from="1556672358933" duration="20731000" />
       <workItem from="1556760405475" duration="473000" />
+      <workItem from="1556760971736" duration="80000" />
     </task>
     <servers />
   </component>
@@ -651,7 +651,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61188000" />
+    <option name="totallyTimeSpent" value="61268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,9 +664,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24697986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1125,11 +1124,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springbook/learningTest/spring/mvc/controller/SimpleControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="404">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2436#2452#0" expanded="true" />
           </folding>
         </state>
       </provider>
