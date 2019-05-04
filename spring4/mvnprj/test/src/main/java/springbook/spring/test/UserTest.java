@@ -6,8 +6,6 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import springbook.spring.dao.User;
 import springbook.spring.service.UserService;
 
-import java.util.Locale;
-
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.junit.Assert.assertThat;
@@ -15,11 +13,11 @@ import static org.junit.Assert.assertThat;
 public class UserTest {
 
     @Test
-    public void userConfigTest(){
+    public void userConfigTest() {
 
         GenericApplicationContext ctx = new GenericXmlApplicationContext("/applicationContext.xml");
 
-        UserService userService  = ctx.getBean("userService", UserService.class);
+        UserService userService = ctx.getBean("userService", UserService.class);
 
         assertThat(userService, is(notNullValue()));
 
@@ -32,6 +30,8 @@ public class UserTest {
         ctx.close();
 
     }
+
+
 
 
 

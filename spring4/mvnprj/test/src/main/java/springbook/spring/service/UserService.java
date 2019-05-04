@@ -1,8 +1,9 @@
 package springbook.spring.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import springbook.spring.dao.User;
+
+import java.util.List;
 
 @Component
 public class UserService {
@@ -17,10 +18,19 @@ public class UserService {
         userRepository.add(user);
     }
 
+    public List<User> getUsers(){
+        return userRepository.users;
+    }
 
     public void printAllUser() {
 
         userRepository.print();
+
+    }
+
+    public User getUserById(String id) throws UserNotFindException {
+
+        return  userRepository.get(id);
 
     }
 }
