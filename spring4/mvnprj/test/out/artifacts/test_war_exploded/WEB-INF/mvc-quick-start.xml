@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:mvc="http://www.springframework.org/schema/mvc" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/mvc
-       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<mvc:annotation-driven />
+
+	<context:component-scan base-package="springbook.spring.mvc.controller" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -17,5 +20,41 @@
 	</bean>
 
 	<!--<bean class="net.madvirus.spring4.chap07.quickstart.HelloController" />-->
-	<bean class="springbook.spring.mvc.controller.HelloController" />
+
+	<bean id="userService" class="springbook.spring.service.UserService">
+		<property name="userRepository"	ref="userRepository" />
+
+	</bean>
+
+	<bean id="userRepository" class="springbook.spring.service.UserRepository">
+		<property name="users">
+			<list>
+				<ref bean="user1"></ref>
+				<ref bean="user2"></ref>
+			</list>
+
+
+		</property>
+
+	</bean>
+
+	<bean id="user1" class="springbook.spring.dao.User">
+		<property name="id" value="KimSuHun"/>
+	</bean>
+
+	<bean id="user2" class="springbook.spring.dao.User">
+		<property name="id" value="KimDonYu"/>
+	</bean>
+
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>message.error</value>
+			</list>
+		</property>
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+
+
 </beans>

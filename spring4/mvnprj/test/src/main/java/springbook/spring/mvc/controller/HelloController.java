@@ -1,5 +1,6 @@
 package springbook.spring.mvc.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -17,17 +18,8 @@ import java.util.List;
 /*@RequestMapping("/hello")*/
 public class HelloController {
 
+    @Autowired
     UserService userService;
-
-    public HelloController(){
-
-        User user = new User("KimSooHun");
-        User user2 = new User("KimDongYu");
-
-        System.out.println("init method");
-        this.userService = new UserService();
-        this.userService.setUserRepository(new UserRepository(Arrays.asList(user, user2)));
-    }
 
     @RequestMapping("/hello.do")
     public String hello(Model model){
