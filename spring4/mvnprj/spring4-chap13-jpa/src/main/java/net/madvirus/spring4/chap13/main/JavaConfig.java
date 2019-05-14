@@ -33,13 +33,13 @@ public class JavaConfig {
 	public DataSource dataSource() {
 		ComboPooledDataSource ds = new ComboPooledDataSource();
 		try {
-			ds.setDriverClass("com.mysql.jdbc.Driver");
+			ds.setDriverClass("com.mysql.cj.jdbc.Driver");
 		} catch (PropertyVetoException e) {
 			throw new RuntimeException(e);
 		}
-		ds.setJdbcUrl("jdbc:mysql://localhost/shop?characterEncoding=utf8");
-		ds.setUser("spring4");
-		ds.setPassword("spring4");
+		ds.setJdbcUrl("jdbc:mysql://localhost/testdb?characterEncoding=UTF-8&serverTimezone=UTC");
+		ds.setUser("root");
+		ds.setPassword("mysql");
 		return ds;
 	}
 
