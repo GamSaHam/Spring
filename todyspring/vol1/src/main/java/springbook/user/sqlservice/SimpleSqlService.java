@@ -4,15 +4,15 @@ import java.util.Map;
 
 public class SimpleSqlService implements SqlService {
 	private Map<String, String> sqlMap;
-	
+
 	public void setSqlMap(Map<String, String> sqlMap) {
 		this.sqlMap = sqlMap;
 	}
 
 	public String getSql(String key) throws SqlRetrievalFailureException {
 		String sql = sqlMap.get(key);
-		if (sql == null)  
-			throw new SqlRetrievalFailureException(key + "¸¦ ÀÌ¿ëÇØ¼­ SQLÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù");
+		if (sql == null)
+			throw new SqlRetrievalFailureException(key + "ë¥¼ ì´ìš©í•´ì„œ SQLì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
 		else
 			return sql;
 	}

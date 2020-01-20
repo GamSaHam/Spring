@@ -36,46 +36,50 @@ import static springbook.user.service.UserServiceImpl.MIN_RECCOMEND_FOR_GOLD;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ActiveProfiles("test")
-@ContextConfiguration(classes=AppContext.class)
+@ContextConfiguration(classes = AppContext.class)
 public class UserServiceTest {
-	@Autowired UserService userService;	
-	@Autowired UserService testUserService;
-	@Autowired UserDao userDao;
-	@Autowired MailSender mailSender;
-	@Autowired PlatformTransactionManager transactionManager;
-	@Autowired ApplicationContext context;
+	@Autowired
+	UserService userService;
+	@Autowired
+	UserService testUserService;
+	@Autowired
+	UserDao userDao;
+	@Autowired
+	MailSender mailSender;
+	@Autowired
+	PlatformTransactionManager transactionManager;
+	@Autowired
+	ApplicationContext context;
 
-	
-	List<User> users;	// test fixture
-	
+	List<User> users; // test fixture
+
 	@Before
 	public void setUp() {
 		users = Arrays.asList(
-				new User("bumjin", "π⁄π¸¡¯", "p1", "user1@ksug.org", Level.BASIC, MIN_LOGCOUNT_FOR_SILVER-1, 0),
-				new User("joytouch", "∞≠∏Ìº∫", "p2", "user2@ksug.org", Level.BASIC, MIN_LOGCOUNT_FOR_SILVER, 0),
-				new User("erwins", "Ω≈Ω¬«—", "p3", "user3@ksug.org", Level.SILVER, 60, MIN_RECCOMEND_FOR_GOLD-1),
-				new User("madnite1", "¿ÃªÛ»£", "p4", "user4@ksug.org", Level.SILVER, 60, MIN_RECCOMEND_FOR_GOLD),
-				new User("green", "ø¿πŒ±‘", "p5", "user5@ksug.org", Level.GOLD, 100, Integer.MAX_VALUE)
-				);
+				new User("bumjin", "Î∞ïÎ≤îÏßÑ", "p1", "user1@ksug.org", Level.BASIC, MIN_LOGCOUNT_FOR_SILVER - 1, 0),
+				new User("joytouch", "Í∞ïÎ™ÖÏÑ±", "p2", "user2@ksug.org", Level.BASIC, MIN_LOGCOUNT_FOR_SILVER, 0),
+				new User("erwins", "Ïã†ÏäπÌïú", "p3", "user3@ksug.org", Level.SILVER, 60, MIN_RECCOMEND_FOR_GOLD - 1),
+				new User("madnite1", "Ïù¥ÏÉÅÌò∏", "p4", "user4@ksug.org", Level.SILVER, 60, MIN_RECCOMEND_FOR_GOLD),
+				new User("green", "Ïò§ÎØºÍ∑ú", "p5", "user5@ksug.org", Level.GOLD, 100, Integer.MAX_VALUE));
 	}
-	
-	@Test 
+
+	@Test
 	public void upgradeLevels() throws Exception {
-		UserServiceImpl userServiceImpl = new UserServiceImpl(); 
-		
-		MockUserDao mockUserDao = new MockUserDao(this.users);  
+		UserServiceImpl userServiceImpl = new UserServiceImpl();
+
+		MockUserDao mockUserDao = new MockUserDao(this.users);
 		userServiceImpl.setUserDao(mockUserDao);
 
 		MockMailSender mockMailSender = new MockMailSender();
 		userServiceImpl.setMailSender(mockMailSender);
-		
+
 		userServiceImpl.upgradeLevels();
 
-		List<User> updated = mockUserDao.getUpdated();  
-		assertThat(updated.size(), is(2));  
-		checkUserAndLevel(updated.get(0), "joytouch", Level.SILVER); 
+		List<User> updated = mockUserDao.getUpdated();
+		assertThat(updated.size(), is(2));
+		checkUserAndLevel(updated.get(0), "joytouch", Level.SILVER);
 		checkUserAndLevel(updated.get(1), "madnite1", Level.GOLD);
-		
+
 		List<String> request = mockMailSender.getRequests();
 		assertThat(request.size(), is(2));
 		assertThat(request.get(0), is(users.get(1).getEmail()));
@@ -86,11 +90,11 @@ public class UserServiceTest {
 		assertThat(updated.getId(), is(expectedId));
 		assertThat(updated.getLevel(), is(expectedLevel));
 	}
-	
-	static class MockUserDao implements UserDao { 
-		private List<User> users;  
-		private List<User> updated = new ArrayList<User>(); 
-		
+
+	static class MockUserDao implements UserDao {
+		private List<User> users;
+		private List<User> updated = new ArrayList<User>();
+
 		private MockUserDao(List<User> users) {
 			this.users = users;
 		}
@@ -99,151 +103,157 @@ public class UserServiceTest {
 			return this.updated;
 		}
 
-		public List<User> getAll() {  
+		public List<User> getAll() {
 			return this.users;
 		}
 
-		public void update(User user) {  
+		public void update(User user) {
 			updated.add(user);
 		}
-		
-		public void add(User user) { throw new UnsupportedOperationException(); }
-		public void deleteAll() { throw new UnsupportedOperationException(); }
-		public User get(String id) { throw new UnsupportedOperationException(); }
-		public int getCount() { throw new UnsupportedOperationException(); }
+
+		public void add(User user) {
+			throw new UnsupportedOperationException();
+		}
+
+		public void deleteAll() {
+			throw new UnsupportedOperationException();
+		}
+
+		public User get(String id) {
+			throw new UnsupportedOperationException();
+		}
+
+		public int getCount() {
+			throw new UnsupportedOperationException();
+		}
 	}
-	
+
 	static class MockMailSender implements MailSender {
-		private List<String> requests = new ArrayList<String>();	
-		
+		private List<String> requests = new ArrayList<String>();
+
 		public List<String> getRequests() {
 			return requests;
 		}
 
 		public void send(SimpleMailMessage mailMessage) throws MailException {
-			requests.add(mailMessage.getTo()[0]);  
+			requests.add(mailMessage.getTo()[0]);
 		}
 
 		public void send(SimpleMailMessage[] mailMessage) throws MailException {
 		}
 	}
-	
+
 	@Test
 	public void mockUpgradeLevels() throws Exception {
 		UserServiceImpl userServiceImpl = new UserServiceImpl();
 
-		UserDao mockUserDao = mock(UserDao.class);	    
+		UserDao mockUserDao = mock(UserDao.class);
 		when(mockUserDao.getAll()).thenReturn(this.users);
 		userServiceImpl.setUserDao(mockUserDao);
 
-		MailSender mockMailSender = mock(MailSender.class);  
+		MailSender mockMailSender = mock(MailSender.class);
 		userServiceImpl.setMailSender(mockMailSender);
 
 		userServiceImpl.upgradeLevels();
 
-		verify(mockUserDao, times(2)).update(any(User.class));				  
+		verify(mockUserDao, times(2)).update(any(User.class));
 		verify(mockUserDao, times(2)).update(any(User.class));
 		verify(mockUserDao).update(users.get(1));
 		assertThat(users.get(1).getLevel(), is(Level.SILVER));
 		verify(mockUserDao).update(users.get(3));
 		assertThat(users.get(3).getLevel(), is(Level.GOLD));
 
-		ArgumentCaptor<SimpleMailMessage> mailMessageArg = ArgumentCaptor.forClass(SimpleMailMessage.class);  
+		ArgumentCaptor<SimpleMailMessage> mailMessageArg = ArgumentCaptor.forClass(SimpleMailMessage.class);
 		verify(mockMailSender, times(2)).send(mailMessageArg.capture());
 		List<SimpleMailMessage> mailMessages = mailMessageArg.getAllValues();
 		assertThat(mailMessages.get(0).getTo()[0], is(users.get(1).getEmail()));
 		assertThat(mailMessages.get(1).getTo()[0], is(users.get(3).getEmail()));
-	}	
+	}
 
 	private void checkLevelUpgraded(User user, boolean upgraded) {
 		User userUpdate = userDao.get(user.getId());
 		if (upgraded) {
 			assertThat(userUpdate.getLevel(), is(user.getLevel().nextLevel()));
-		}
-		else {
+		} else {
 			assertThat(userUpdate.getLevel(), is(user.getLevel()));
 		}
 	}
 
-	@Test 
+	@Test
 	public void add() {
 		userDao.deleteAll();
-		
-		User userWithLevel = users.get(4);	  // GOLD ∑π∫ß  
-		User userWithoutLevel = users.get(0);  
+
+		User userWithLevel = users.get(4); // GOLD Î†àÎ≤®
+		User userWithoutLevel = users.get(0);
 		userWithoutLevel.setLevel(null);
-		
-		userService.add(userWithLevel);	  
+
+		userService.add(userWithLevel);
 		userService.add(userWithoutLevel);
-		
+
 		User userWithLevelRead = userDao.get(userWithLevel.getId());
 		User userWithoutLevelRead = userDao.get(userWithoutLevel.getId());
-		
-		assertThat(userWithLevelRead.getLevel(), is(userWithLevel.getLevel())); 
+
+		assertThat(userWithLevelRead.getLevel(), is(userWithLevel.getLevel()));
 		assertThat(userWithoutLevelRead.getLevel(), is(Level.BASIC));
 	}
-	@Test 
+
+	@Test
 	public void upgradeAllOrNothing() {
-		userDao.deleteAll();			  
-		for(User user : users) userDao.add(user);
-		
+		userDao.deleteAll();
+		for (User user : users)
+			userDao.add(user);
+
 		try {
-			testUserService.upgradeLevels();   
-			fail("TestUserServiceException expected"); 
+			testUserService.upgradeLevels();
+			fail("TestUserServiceException expected");
+		} catch (TestUserServiceException e) {
 		}
-		catch(TestUserServiceException e) { 
-		}
-		
+
 		checkLevelUpgraded(users.get(1), false);
 	}
-	
-	@Test(expected=TransientDataAccessResourceException.class) 
+
+	@Test(expected = TransientDataAccessResourceException.class)
 	public void readOnlyTransactionAttribute() {
 		testUserService.getAll();
 	}
-	
+
 	@Test
-	@Transactional(propagation=Propagation.NEVER)
+	@Transactional(propagation = Propagation.NEVER)
 	public void transactionSync() {
 		userService.deleteAll();
 		userService.add(users.get(0));
 		userService.add(users.get(1));
 	}
-	
+
 	public static class TestUserService extends UserServiceImpl {
 		private String id = "madnite1"; // users(3).getId()
-		
+
 		protected void upgradeLevel(User user) {
-			if (user.getId().equals(this.id)) throw new TestUserServiceException();  
-			super.upgradeLevel(user);  
+			if (user.getId().equals(this.id))
+				throw new TestUserServiceException();
+			super.upgradeLevel(user);
 		}
 
 		public List<User> getAll() {
-			for(User user : super.getAll()) {
+			for (User user : super.getAll()) {
 				super.update(user);
 			}
 			return null;
 		}
 	}
-	
+
 	static class TestUserServiceException extends RuntimeException {
 	}
-
 
 	@Autowired
 	DefaultListableBeanFactory bf;
 
 	@Test
-	public void beans(){
-		for(String n : bf.getBeanDefinitionNames()){
+	public void beans() {
+		for (String n : bf.getBeanDefinitionNames()) {
 			System.out.println(n + "\t" + bf.getBean(n).getClass().getName());
 		}
 
-
-
 	}
 
-
-
 }
-

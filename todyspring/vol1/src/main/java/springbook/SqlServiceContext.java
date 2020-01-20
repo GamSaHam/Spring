@@ -7,12 +7,10 @@ import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.oxm.Unmarshaller;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
-import springbook.user.dao.UserDao;
 import springbook.user.sqlservice.OxmSqlService;
 import springbook.user.sqlservice.SqlRegistry;
 import springbook.user.sqlservice.SqlService;
@@ -31,27 +29,24 @@ public class SqlServiceContext {
 		sqlService.setSqlmap(sqlMapConfig.getSqlMapConfig());
 		return sqlService;
 	}
-	
+
 	@Bean
 	public SqlRegistry sqlRegistry() {
 		EmbeddedDbSqlRegistry sqlRegistry = new EmbeddedDbSqlRegistry();
 		sqlRegistry.setDataSource(embeddedDatabase());
 		return sqlRegistry;
 	}
-	
+
 	@Bean
 	public Unmarshaller unmarshaller() {
 		Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 		marshaller.setContextPath("springbook.user.sqlservice.jaxb");
 		return marshaller;
 	}
-	
-	@Bean 
+
+	@Bean
 	public DataSource embeddedDatabase() {
-		return new EmbeddedDatabaseBuilder()
-			.setName("embeddedDatabase")
-			.setType(HSQL)
-			.addScript("classpath:springbook/user/sqlservice/updatable/sqlRegistrySchema.sql")
-			.build();
+		return new EmbeddedDatabaseBuilder().setName("embeddedDatabase").setType(HSQL)
+				.addScript("classpath:springbook/user/sqlservice/updatable/sqlRegistrySchema.sql").build();
 	}
 }

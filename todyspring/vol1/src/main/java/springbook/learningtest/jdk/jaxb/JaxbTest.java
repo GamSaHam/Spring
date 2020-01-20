@@ -18,13 +18,13 @@ import springbook.user.sqlservice.jaxb.Sqlmap;
 public class JaxbTest {
 	@Test
 	public void readSqlmap() throws JAXBException, IOException {
-		
-		String contextPath = Sqlmap.class.getPackage().getName(); 
+
+		String contextPath = Sqlmap.class.getPackage().getName();
 		JAXBContext context = JAXBContext.newInstance(contextPath);
 		Unmarshaller unmarshaller = context.createUnmarshaller();
-		Sqlmap sqlmap = (Sqlmap) unmarshaller.unmarshal(
-				getClass().getResourceAsStream("/springbook/learningtest/jdk/jaxb/sqlmap.xml"));
-		
+		Sqlmap sqlmap = (Sqlmap) unmarshaller
+				.unmarshal(getClass().getResourceAsStream("/springbook/learningtest/jdk/jaxb/sqlmap.xml"));
+
 		List<SqlType> sqlList = sqlmap.getSql();
 
 		assertThat(sqlList.size(), is(3));

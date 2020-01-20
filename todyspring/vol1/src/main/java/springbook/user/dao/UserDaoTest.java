@@ -25,86 +25,87 @@ import springbook.user.domain.Level;
 import springbook.user.domain.User;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes={AppContext.class})
+@ContextConfiguration(classes = { AppContext.class })
 public class UserDaoTest {
-	@Autowired UserDao dao; 
-	@Autowired DataSource dataSource;
-	
+	@Autowired
+	UserDao dao;
+	@Autowired
+	DataSource dataSource;
+
 	private User user1;
 	private User user2;
-	private User user3; 
-	
+	private User user3;
+
 	@Before
 	public void setUp() {
-		this.user1 = new User("gyumee", "¹Ú¼ºÃ¶", "springno1", "user1@ksug.org", Level.BASIC, 1, 0);
-		this.user2 = new User("leegw700", "ÀÌ±æ¿ø", "springno2", "user2@ksug.org", Level.SILVER, 55, 10);
-		this.user3 = new User("bumjin", "¹Ú¹üÁø", "springno3", "user3@ksug.org", Level.GOLD, 100, 40);
+		this.user1 = new User("gyumee", "ë°•ì„±ì² ", "springno1", "user1@ksug.org", Level.BASIC, 1, 0);
+		this.user2 = new User("leegw700", "ì´ê¸¸ì›", "springno2", "user2@ksug.org", Level.SILVER, 55, 10);
+		this.user3 = new User("bumjin", "ë°•ë²”ì§„", "springno3", "user3@ksug.org", Level.GOLD, 100, 40);
 	}
-	
-	@Test 
-	public void andAndGet() {		
+
+	@Test
+	public void andAndGet() {
 		dao.deleteAll();
 		assertThat(dao.getCount(), is(0));
 
 		dao.add(user1);
 		dao.add(user2);
 		assertThat(dao.getCount(), is(2));
-		
+
 		User userget1 = dao.get(user1.getId());
 		checkSameUser(userget1, user1);
-		
+
 		User userget2 = dao.get(user2.getId());
 		checkSameUser(userget2, user2);
 	}
 
-	@Test(expected=EmptyResultDataAccessException.class)
+	@Test(expected = EmptyResultDataAccessException.class)
 	public void getUserFailure() throws SQLException {
 		dao.deleteAll();
 		assertThat(dao.getCount(), is(0));
-		
+
 		dao.get("unknown_id");
 	}
 
-	
 	@Test
 	public void count() {
 		dao.deleteAll();
 		assertThat(dao.getCount(), is(0));
-				
+
 		dao.add(user1);
 		assertThat(dao.getCount(), is(1));
-		
+
 		dao.add(user2);
 		assertThat(dao.getCount(), is(2));
-		
+
 		dao.add(user3);
 		assertThat(dao.getCount(), is(3));
 	}
-	
+
 	@Test
-	public void getAll()  {
+	public void getAll() {
 		dao.deleteAll();
-		
+
 		List<User> users0 = dao.getAll();
 		assertThat(users0.size(), is(0));
-		
+
 		dao.add(user1); // Id: gyumee
 		List<User> users1 = dao.getAll();
 		assertThat(users1.size(), is(1));
 		checkSameUser(user1, users1.get(0));
-		
+
 		dao.add(user2); // Id: leegw700
 		List<User> users2 = dao.getAll();
 		assertThat(users2.size(), is(2));
-		checkSameUser(user1, users2.get(0));  
+		checkSameUser(user1, users2.get(0));
 		checkSameUser(user2, users2.get(1));
-		
+
 		dao.add(user3); // Id: bumjin
 		List<User> users3 = dao.getAll();
 		assertThat(users3.size(), is(3));
-		checkSameUser(user3, users3.get(0));  
-		checkSameUser(user1, users3.get(1));  
-		checkSameUser(user2, users3.get(2));  
+		checkSameUser(user3, users3.get(0));
+		checkSameUser(user1, users3.get(1));
+		checkSameUser(user2, users3.get(2));
 	}
 
 	private void checkSameUser(User user1, User user2) {
@@ -117,46 +118,45 @@ public class UserDaoTest {
 		assertThat(user1.getRecommend(), is(user2.getRecommend()));
 	}
 
-	@Test(expected=DuplicateKeyException.class)
+	@Test(expected = DuplicateKeyException.class)
 	public void duplciateKey() {
 		dao.deleteAll();
-		
+
 		dao.add(user1);
 		dao.add(user1);
 	}
-	
+
 	@Test
 	public void sqlExceptionTranslate() {
 		dao.deleteAll();
-		
+
 		try {
 			dao.add(user1);
 			dao.add(user1);
-		}
-		catch(DuplicateKeyException ex) {
-			SQLException sqlEx = (SQLException)ex.getCause();
-			SQLExceptionTranslator set = new SQLErrorCodeSQLExceptionTranslator(this.dataSource);			
+		} catch (DuplicateKeyException ex) {
+			SQLException sqlEx = (SQLException) ex.getCause();
+			SQLExceptionTranslator set = new SQLErrorCodeSQLExceptionTranslator(this.dataSource);
 			DataAccessException transEx = set.translate(null, null, sqlEx);
-		//	assertThat(transEx, is(DuplicateKeyException.class));
+			// assertThat(transEx, is(DuplicateKeyException.class));
 		}
 	}
-	
+
 	@Test
 	public void update() {
 		dao.deleteAll();
-		
-		dao.add(user1);		// ¼öÁ¤ÇÒ »ç¿ëÀÚ
-		dao.add(user2);		// ¼öÁ¤ÇÏÁö ¾ÊÀ» »ç¿ëÀÚ
-		
-		user1.setName("¿À¹Î±Ô");
+
+		dao.add(user1); // ìˆ˜ì •í•  ì‚¬ìš©ì
+		dao.add(user2); // ìˆ˜ì •í•˜ì§€ ì•Šì„ ì‚¬ìš©ì
+
+		user1.setName("ì˜¤ë¯¼ê·œ");
 		user1.setPassword("springno6");
 		user1.setEmail("user6@ksug.org");
 		user1.setLevel(Level.GOLD);
 		user1.setLogin(1000);
 		user1.setRecommend(999);
-		
+
 		dao.update(user1);
-		
+
 		User user1update = dao.get(user1.getId());
 		checkSameUser(user1, user1update);
 		User user2same = dao.get(user2.getId());

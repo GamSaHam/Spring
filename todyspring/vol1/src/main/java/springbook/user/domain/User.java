@@ -8,12 +8,11 @@ public class User {
 	Level level;
 	int login;
 	int recommend;
-	
+
 	public User() {
 	}
-	
-	public User(String id, String name, String password, String email,
-			Level level, int login, int recommend) {
+
+	public User(String id, String name, String password, String email, Level level, int login, int recommend) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -24,22 +23,26 @@ public class User {
 		this.recommend = recommend;
 	}
 
-
 	public String getId() {
 		return id;
 	}
+
 	public void setId(String id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getPassword() {
 		return password;
 	}
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
@@ -67,7 +70,7 @@ public class User {
 	public void setRecommend(int recommend) {
 		this.recommend = recommend;
 	}
-	
+
 	public String getEmail() {
 		return email;
 	}
@@ -77,12 +80,11 @@ public class User {
 	}
 
 	public void upgradeLevel() {
-		Level nextLevel = this.level.nextLevel();	
-		if (nextLevel == null) { 								
-			throw new IllegalStateException(this.level + "Àº  ¾÷±×·¹ÀÌµå°¡ ºÒ°¡´ÉÇÕ´Ï´Ù");
-		}
-		else {
+		Level nextLevel = this.level.nextLevel();
+		if (nextLevel == null) {
+			throw new IllegalStateException(this.level + "ì€  ì—…ê·¸ë ˆì´ë“œê°€ ë¶ˆê°€ëŠ¥í•©ë‹ˆë‹¤");
+		} else {
 			this.level = nextLevel;
-		}	
+		}
 	}
 }
