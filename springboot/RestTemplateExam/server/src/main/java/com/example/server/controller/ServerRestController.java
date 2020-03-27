@@ -5,61 +5,102 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.net.URI;
+import java.util.List;
 
 @RestController
 public class ServerRestController {
 
-    @GetMapping("/hello")
-    ResponseEntity<String> hello() {
-        return new ResponseEntity<>("Hello World!", HttpStatus.OK);
-    }
-    @GetMapping("/hello2")
-    ResponseEntity<String> hello2() {
-        return ResponseEntity.ok("Hello World!");
+    @GetMapping("/spring-rest/foos/{id}")
+    ResponseEntity<?> getFoos(@PathVariable String id) {
+
+        return ResponseEntity.ok().body(new Foo(1L,"Foo"));
     }
 
+    @GetMapping("/spring-rest/foos/object/{id}")
+    ResponseEntity<?> getFoosObject(@PathVariable String id) {
 
-    @GetMapping("/age")
-    ResponseEntity<String> age(
-            @RequestParam("yearOfBirth") int yearOfBirth) {
+        Foo foo = new Foo();
+        foo.setId(1L);
+        foo.setName("Foo");
 
-        int currentYear = 2020;
-
-        if (yearOfBirth > currentYear) {
-            return new ResponseEntity<>(
-                    "Year of birth cannot be in the future",
-                    HttpStatus.BAD_REQUEST);
-        }
-
-        return new ResponseEntity<>(
-                "Your age is " + (currentYear-yearOfBirth+1),
-                HttpStatus.OK);
-    }
-    @GetMapping("/age2")
-    ResponseEntity<String> age2(@RequestParam("yearOfBirth") int yearOfBirth) {
-        int currentYear = 2020;
-        if (yearOfBirth > currentYear) {
-            return ResponseEntity.badRequest()
-                    .body("Year of birth cannot be in the future");
-        }
-
-        return ResponseEntity.status(HttpStatus.OK)
-                .body("Your age is " + (currentYear-yearOfBirth+1));
+        return ResponseEntity.ok().body(foo);
     }
 
-    @GetMapping("/customHeader")
-    ResponseEntity<String> customHeader() {
-        HttpHeaders headers = new HttpHeaders();
-        headers.add("Custom-Header", "foo");
+    @GetMapping("/spring-rest/foos")
+    ResponseEntity<?> getFooHeader() {
 
-        return new ResponseEntity<>(
-                "Custom header set", headers, HttpStatus.OK);
+        return ResponseEntity.ok("");
     }
-    @GetMapping("/customHeader2")
-    ResponseEntity<String> customHeader2() {
-        return ResponseEntity.ok().header("Custom-Header", "foo").body("Custom header set");
+
+
+    @PostMapping("/spring-rest/foos")
+    ResponseEntity<?> postFoos(@RequestBody Foo foo) {
+
+        System.out.println(foo.getId()+","+foo.getName());
+        return ResponseEntity.ok().body(foo);
     }
+
+    @PostMapping("/spring-rest/foos/uri")
+    ResponseEntity<?> postFoosUri(@RequestBody Foo foo) {
+
+        System.out.println(foo.toString());
+
+        URI selfLink = URI.create(ServletUriComponentsBuilder.fromCurrentRequest().toUriString());
+        return ResponseEntity.created(selfLink).build();
+    }
+
+    @PostMapping("/spring-rest/foos/object")
+    ResponseEntity<Foo> postFoosObject(@RequestBody Foo foo) {
+
+        URI selfLink = URI.create(ServletUriComponentsBuilder.fromCurrentRequest().toUriString());
+        return ResponseEntity.created(selfLink).body(foo);
+    }
+
+    @PostMapping("/spring-rest/foos/form")
+    ResponseEntity<Foo> postFoosForm(@RequestParam MultiValueMap<String, String> params) {
+
+        Foo foo = new Foo();
+
+        System.out.println(params.getClass().getName());
+
+        URI selfLink = URI.create(ServletUriComponentsBuilder.fromCurrentRequest().toUriString());
+        return ResponseEntity.created(selfLink).body(foo);
+    }
+
+    @PutMapping("/spring-rest/foos/{id}")
+    ResponseEntity<Foo> putFoos(@PathVariable String id,@RequestBody Foo foo,@RequestHeader HttpHeaders httpHeaders) {
+
+        System.out.println(id);
+        System.out.println(foo);
+        System.out.println(httpHeaders);
+
+        return ResponseEntity.ok().header("Server-Content", "Content").body(foo);
+    }
+
+    @DeleteMapping("/spring-rest/foos/{id}")
+    ResponseEntity<Foo> deleteFoo(@PathVariable String id) {
+        System.out.println(id);
+
+
+        URI selfLink = URI.create(ServletUriComponentsBuilder.fromCurrentRequest().toUriString());
+        return ResponseEntity.created(selfLink).build();
+    }
+
+    @GetMapping("/spring-rest/foos/timeout")
+    ResponseEntity<?> getFooTimeout() throws InterruptedException {
+
+        Thread.sleep(2000);
+
+
+        return ResponseEntity.ok("");
+    }
+
+
 
 
 
