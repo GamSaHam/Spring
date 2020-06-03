@@ -1,0 +1,24 @@
+
+spring:
+  profiles:
+    active: mysql
+
+spring.batch.job.names: ${job.name:NONE}
+
+---
+spring:
+  profiles: mysql
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/spring_batch?autoReconnect=true&autoReconnection=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Seoul
+      username: root
+      password: mysql
+      driver-class-name: com.mysql.jdbc.Driver
+
+
+
+
+
+
+
+
