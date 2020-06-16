@@ -16,6 +16,9 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Random;
 
+
+// --job.name=deciderJob version=1
+
 @Slf4j
 @Configuration
 @RequiredArgsConstructor
